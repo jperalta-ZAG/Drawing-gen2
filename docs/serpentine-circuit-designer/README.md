@@ -25,10 +25,10 @@ The app is intentionally built with vanilla HTML, CSS, and JavaScript so it can 
 After GitHub Pages is enabled, open the repository's Pages URL in a browser:
 
 ```text
-https://<your-github-username>.github.io/Drawing-gen2/
+https://<your-github-username>.github.io/Drawing-gen2/serpentine-circuit-designer/
 ```
 
-No local server or installation is required for end users. The page is a static website served from the repository `/docs` folder.
+No local server or installation is required for end users. The app is served from the repository `/docs/serpentine-circuit-designer` subfolder after `/docs` is selected for GitHub Pages.
 
 ## Enable GitHub Pages
 
@@ -43,7 +43,7 @@ No local server or installation is required for end users. The page is a static 
 
 ## Local development preview
 
-The app can be opened directly by double-clicking `docs/index.html`. If you prefer a local static preview server while editing, run:
+The app can be opened directly by double-clicking `docs/serpentine-circuit-designer/index.html`. If you prefer a local static preview server while editing, run:
 
 ```bash
 python3 -m http.server 8000
@@ -52,7 +52,7 @@ python3 -m http.server 8000
 Then open:
 
 ```text
-http://localhost:8000/
+http://localhost:8000/docs/serpentine-circuit-designer/
 ```
 
 This local preview is optional and is not required for normal use on GitHub Pages.
@@ -151,6 +151,6 @@ The point-by-point inspector can be used to confirm that the generated body foll
 
 ## Files
 
-- `docs/index.html` — static page markup and UI controls.
-- `docs/style.css` — responsive modern sidebar, canvas, validation, length-results, and inspector styling.
-- `docs/app.js` — client-side computational geometry, SVG rendering, terminal dragging, shared terminal pads, auto-fit, validation, and exports.
+- `docs/serpentine-circuit-designer/index.html` — static page markup and UI controls.
+- `docs/serpentine-circuit-designer/style.css` — responsive modern sidebar, canvas, validation, length-results, and inspector styling.
+- `docs/serpentine-circuit-designer/app.js` — client-side computational geometry, SVG rendering, terminal dragging, shared terminal pads, auto-fit, validation, and exports.
