@@ -25,6 +25,12 @@ The app is intentionally built with vanilla HTML, CSS, and JavaScript so it can 
 After GitHub Pages is enabled, open the repository's Pages URL in a browser:
 
 ```text
+https://<your-github-username>.github.io/Drawing-gen2/
+```
+
+The `/docs/index.html` page redirects to the app folder, and the direct app URL is:
+
+```text
 https://<your-github-username>.github.io/Drawing-gen2/serpentine-circuit-designer/
 ```
 
@@ -151,6 +157,8 @@ The point-by-point inspector can be used to confirm that the generated body foll
 
 ## Files
 
+- `docs/index.html` — GitHub Pages landing page that redirects to the app.
+- `docs/.nojekyll` — Keeps GitHub Pages from applying Jekyll processing.
 - `docs/serpentine-circuit-designer/index.html` — static page markup and UI controls.
 - `docs/serpentine-circuit-designer/style.css` — responsive modern sidebar, canvas, validation, length-results, and inspector styling.
 - `docs/serpentine-circuit-designer/app.js` — client-side computational geometry, SVG rendering, terminal dragging, shared terminal pads, auto-fit, validation, and exports.
